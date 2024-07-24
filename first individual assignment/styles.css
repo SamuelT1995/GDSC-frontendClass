@@ -94,3 +94,37 @@ p {
     color: white;
     padding: 70px;
 }
+@media (max-width: 768px) {
+    .puppy-images, .more-puppies {
+        flex-direction: column;
+        margin: 0 20px 20px 20px;
+    }
+    
+    .puppy-image, .more-puppies .puppy-image {
+        margin: 10px 0;
+        height: auto;
+    }
+    
+    .more {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header, .footer {
+        font-size: 24px;
+        padding: 15px;
+    }
+    
+    .more {
+        font-size: 24px;
+    }
+    
+    #img2 {
+        font-size: 16px;
+    }
+    
+    #img2 p {
+        font-size: 18px;
+    }
+}
